@@ -1,1 +1,6 @@
 ctr + k..y...ctr + f =Formatear codigo
+
+
+Bloaquear inspeccionar
+<body oncontextmenu="return false" onkeydown="return false">
+</body>
