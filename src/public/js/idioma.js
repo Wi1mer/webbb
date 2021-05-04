@@ -97,6 +97,40 @@ var Language_le = {
   }
 //------------------------------------------------------------------------
 
+//------------------------------------------------------------------------
+var Categories_le = {
+    en: "Categories",
+    es: "Categorias"
+  };
+  
+  if (idioma) {
+  
+    lista.value = idioma;
+    document.getElementById("Categories_l").innerHTML = Categories_le[idioma];
+  } else {
+  
+    document.getElementById("Categories_l").innerHTML = Categories_le[lista.value];
+  }
+//------------------------------------------------------------------------
+
+//------------------------------------------------------------------------
+var Subscriptions_le = {
+  en: "Subscriptions",
+  es: "Suscripciones"
+};
+
+if (idioma) {
+
+  lista.value = idioma;
+  document.getElementById("Subscriptions_l").innerHTML = Subscriptions_le[idioma];
+} else {
+
+  document.getElementById("Subscriptions_l").innerHTML = Subscriptions_le[lista.value];
+}
+//------------------------------------------------------------------------
+
+
+
 var _lang = $("#idioma").val();
 
 $("select").on("change", function() {

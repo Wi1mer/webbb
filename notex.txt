@@ -3,4 +3,33 @@ ctr + k..y...ctr + f =Formatear codigo
 
 Bloaquear inspeccionar
 <body oncontextmenu="return false" onkeydown="return false">
+
 </body>
+
+
+
+refrescar paguina web pos segndos
+https://baulcode.com/javascript/refrescar-pagina-usando-javascript-6-ejemplos-completos#:~:text=Este%20m%C3%A9todo%20es%20todo%20un,o%20actualizar%20la%20p%C3%A1gina%20actual.
+
+
+
+
+optener ip
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IP real</title>
+  </head>
+  <body>
+     Mi IP es: <strong id="ipId"></strong>
+
+    <script type="text/javascript">
+        function get_ip(obj){
+            console.log(obj.ip);
+        }
+    </script>
+    <script type="text/javascript" src="https://api.ipify.org/?format=jsonp&callback=get_ip"></script>
+  </body>
+</html>
+
+
