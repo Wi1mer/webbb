@@ -43,9 +43,12 @@
 
                   <article>
                     <div v-show="ver==1">
-                      <video src="https://aws.rapidleech.gq/files/Catalina%20quiere%20recuperar%20su%20hijo.mp4"</video>
-</div>
+                      
+                      
                       <!--<iframe src="https://mdstrm.com/live-stream/574463697b9817cf0886fc17?enablejsapi=1" width="100%" height="720" frameborder="0" scrolling="no"></iframe>-->
+
+
+  
                     </div>
                   </article>
 
@@ -179,6 +182,7 @@
                     </div>
 
                   </article>
+                  
                   <div class="load-more">
                     <svg id="me" xmlns="http://w3.org/2000/svg" viewBox="0 0 341.333 341.333" fill="currentColor">
                       <path
@@ -193,6 +197,13 @@
           </div>
     </div>
   </div>
+  
+  <video id="my_video_1" class="video-js vjs-default-skin" controls preload="auto" 
+  data-setup='{ "asdf": true }' poster="http://video-js.zencoder.com/oceans-clip.png" >
+    <source src="https://aws.rapidleech.gq/files/View_From_A_Blue_Moon_Trailer-576p.mp4" type='video/mp4'>
+    <source src="https://vjs.zencdn.net/v/oceans.webm" type='video/webm'>
+  </video>
+  
 
   <% include partials/scripts %>
 
