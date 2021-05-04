@@ -1,6 +1,5 @@
-<script src="js/vue.js"></script>
-<script src="js/main.js"></script>
-<script id="rendered-js">
+<!--Oscuro claro-->
+<script>
     const toggleButton = document.querySelector('.dark-light');
 
     toggleButton.addEventListener('click', () => {
@@ -20,9 +19,28 @@
         });
     });
 //# sourceURL=pen.js
-</script>
-
-
-
+</script> 
 
 <script type="text/javascript" src="/js/idioma.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  
+<script>
+jQuery(document).ready(function () {
+$(".oculto").hide();
+$(".profile-menu-link").click(function () {
+var nodo = $(this).attr("href");
+
+if ($(nodo).is(":visible")) {
+$(nodo).hide();
+return false;
+} else {
+$(".oculto").hide("slow");
+$(nodo).fadeToggle("fast");
+return false;
+}
+});
+});
+//# sourceURL=pen.js
+</script>
